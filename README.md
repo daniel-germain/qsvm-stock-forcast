@@ -14,5 +14,16 @@ This repository contains an early-stage exploration of using Quantum Support Vec
 - Final analysis and documentation are pending.
 - HPC access needed for final results
 
+## Preliminary Results
+
+Initial experiments using a quantum support vector machine (QSVM)  indicate that quantum entanglement, as implemented through entangling feature maps, did not impact classification accuracy on the selected financial dataset.
+
+### Observations
+- Performance was comparable between entangled and non-entangled feature maps.
+- The dataset's low dimensionality and limited size may have limited the expressive power of entanglement.
+
+These preliminary findings suggest the need to explore more complex feature sets and higher-dimensional data where quantum entanglement may have a stronger effect on model performance.
+
+
 ## Contact
 If you'd like to discuss this project or see the final version once complete, feel free to reach out.
