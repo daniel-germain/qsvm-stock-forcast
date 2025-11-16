@@ -2,27 +2,38 @@
 
 **Status**: Work in Progress 🚧 
 
-This repository contains an early-stage exploration of using Quantum Support Vector Machines (QSVM) for stock price prediction. The project applies quantum kernel methods to historical stock data with the goal of understanding the practical performance and scalability of QSVMs in real-world financial applications.
+This repository contains an early-stage exploration of using Quantum Support Vector Machines (QSVM) for stock price prediction. I am essentially running two experiments: 
+
+## Experiments
+
+**Experiment 1**
+The project applies quantum kernel methods to historical stock data to see if QSVM's would outperform classic SVM's when using fewer input features (no technical indicators)
+since QSVM's can create a rich feature space without needing much data.
+
+**Experiment 2**
+It also seeks to expore if quantum entaglement methods can pick up subtle feature correlations when using technical indicators. 
+
 
 ## Goals
 - Implement QSVM using Pennylane
 - Compare performance with classical SVMs
-- Evaluate feasibility of quantum approaches in finance
+- See how entaglement methods and technical indicators impact results. 
 
 ## Notes
 - Code and results are in development.
 - Final analysis and documentation are pending.
-- HPC access needed for final results
+  
 
 ## Preliminary Results
+Classic and Quantum SVM's had very similar performace. 
 
 Initial experiments using a quantum support vector machine (QSVM)  indicate that quantum entanglement, as implemented through entangling feature maps, did not impact classification accuracy on the selected financial dataset.
 
-### Observations
-- Performance was comparable between entangled and non-entangled feature maps.
-- The dataset's low dimensionality and limited size may have limited the expressive power of entanglement.
+## Next Steps 
+- Tune Quantum Circut
+- Benchmark against classic SVM while using progressivly less features.
+- Test entaglement performance impact when using many technical indicator features.
 
-These preliminary findings suggest the need to explore more complex feature sets and higher-dimensional data where quantum entanglement may have a stronger effect on model performance.
 
 
 ## Contact
